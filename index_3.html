@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collins Rev Inc.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(45deg, #1d2b64, #f8cdda);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            background: #1d2b64;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f8cdda;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .services,
+        .about,
+        .contact {
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #1d2b64;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .service {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service img {
+            max-width: 150px;
+            border-radius: 10px;
+        }
+
+        .service h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #1d2b64;
+        }
+
+        .service p {
+            text-align: left;
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .cta {
+            background: #1d2b64;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .cta button {
+            background: #f8cdda;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            color: #1d2b64;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .cta button:hover {
+            background: #fff;
+            color: #1d2b64;
+        }
+
+        footer {
+            background: #1d2b64;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Collins Rev Inc.</h1>
+        <p>Your Trusted Partner in Automotive Excellence</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Collins Rev Inc.</h2>
+            <p>At Collins Rev Inc., we bring innovation and excellence to the automotive industry. Our mission is to provide top-notch services that enhance your driving experience, whether you're in for a routine check or a major upgrade.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="https://via.placeholder.com/150" alt="Service 1">
+                <div>
+                    <h3>Luxury Detailing</h3>
+                    <p>We offer premium detailing services that will leave your car looking brand new. From deep interior cleaning to a stunning exterior polish, we cover it all.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/150" alt="Service 2">
+                <div>
+                    <h3>Engine Tuning</h3>
+                    <p>Our expert technicians provide high-performance tuning that boosts your car's power and efficiency. Experience the thrill of driving a finely-tuned machine.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/150" alt="Service 3">
+                <div>
+                    <h3>Custom Modifications</h3>
+                    <p>Transform your vehicle into a unique masterpiece with our custom modification services. From aesthetic upgrades to performance enhancements, we do it all.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready to Elevate Your Drive?</h2>
+            <p>Get in touch with us today and let’s make your dream car a reality.</p>
+            <button onclick="window.location.href='#contact'">Contact Us</button>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Reach out to Collins Rev Inc. through our social media channels or give us a call at (+234) 903-808-2755. We're here to assist you with all your automotive needs.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Collins Rev Inc. All Rights Reserved.</p>
+        <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</p>
+    </footer>
+
+</body>
+</html>
